@@ -1,0 +1,43 @@
+.order-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Orders{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 30px 10px 30px;
+    padding-bottom:20px ;
+    align-items: center;
+    border-bottom: 1px solid #DBE2EF;
+}
+
+.Orders button{
+    width: 35px;
+    height: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    font-family: inter,arial;
+    color: #222831;
+    font-size: 10px;
+    margin-right:20px ;
+    border-color: #222831;
+}
+
+.order-img{
+width: 20%;
+margin-right: 20px;
+}
+.Orders h3{
+    font-family: inter,arial;
+    color: #112D4E;
+    width: 20%;
+    font-size: 12px;
+}
+
+.order-price{
+    color: #393E46;
+    flex: 1;
+    text-align: end;
+}

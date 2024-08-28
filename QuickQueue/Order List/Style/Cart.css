@@ -1,0 +1,119 @@
+/* header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #112D4E;
+    padding:10px 30px;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header h1{
+    margin-left:20px;
+    font-family: inter,arial;
+    color: #f9f7f7;
+    line-height: 130%;
+    font-weight: 0%;
+    font-size: 25;
+}
+
+.status{
+    background-color: #eeeeee;;
+    margin: 20px 30px;
+    height: 80px;
+    padding:0px 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.status-icon{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.pot{
+    width: 40px;
+}
+
+.status-description{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.status-description h3,h2{
+    font-family: inter,arial;
+    margin:0;
+}
+
+.status-description h3{
+    color:#393E46;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.status-description h2{
+    color:#222831 ;
+    font-size: 20px;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    margin:0px 30px;
+    margin-top: 60px;
+    align-items: center;
+    border-top: 1px solid #DBE2EF;
+    padding-top: 30px;
+}
+
+.costing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.costing h2{
+    font-size: 20px;
+    line-height: 130%S;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buttons button{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    font-family: inter,arial;
+    letter-spacing: -5%;
+    line-height: auto;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.continue{
+    background-color: #112D4E;
+    color: #f9f7f7;
+}
